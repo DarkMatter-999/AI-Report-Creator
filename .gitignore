@@ -1,0 +1,5 @@
+venv/
+Reports/
+*.zip
+report.tex
+output.txt

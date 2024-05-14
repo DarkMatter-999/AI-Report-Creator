@@ -1,0 +1,211 @@
+\documentclass[12pt, twoside, a4paper]{report}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage[a4paper, margin=1in]{geometry}
+\usepackage{titlesec}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{cite}
+
+\title{Title}
+\author{USERNAME}
+\date{\today}
+
+\begin{document}
+
+\thispagestyle{empty}
+\begin{center}
+\vspace{1cm}
+{\LARGE \bf A Report on }
+\vspace{0.5in}\\
+{\huge \bf Title}
+\vspace{0.5in}\\
+{\bf In partial fulfillment for the degree of DEGREE-NAME}\\
+\vspace{0.6in}
+\vspace{1mm}
+\begin{center}
+\includegraphics[width=150pt]{logo.png}\\
+\vspace{0.5in}
+\begin{center}
+{\large \bf INSTITUTE_NAME}\\
+\vspace{0.1in}
+{\large \bf Department of DEPTARTMENT-NAME}\\
+\end {center}
+{\large \bf Session 20XX-20XX}
+\end{center}
+\end{center}
+\vspace{0.7in}
+{\underline{Submitted To:}}
+\hfill{\underline{Submitted By:}}\\
+{SUBMITTED-TO-NAME}
+\hfill{USERNAME}\\
+{DESIGNATION}
+\hfill{CLASS/YEAR}
+
+\titlelabel{\thetitle.\quad}
+
+\pagenumbering{roman}
+
+\maketitle
+
+\newpage
+
+\section*{
+\begin{center}
+    Acknowledgment
+\end{center}
+}
+\vspace{10pt}
+{\section*{Acknowledgments}
+
+I wish to take this moment to convey my profound appreciation to the individuals and entities whose unwavering assistance and input were instrumental in the successful completion of this project.
+
+First and foremost, I'd like to offer my heartfelt thanks to my esteemed project mentor, {\bfseries SUBMITTER-TO-NAME} . Their constant guidance, insightful expertise, and remarkable patience were the pillars of this project's success. Their expert mentorship significantly influenced the project's development and enhanced my understanding of the subject matter. Their commitment to my growth and learning has been immeasurable.
+
+My gratitude also extends to the esteemed members of our university's faculty, whose dedication to academic excellence and provision of essential resources have not only been crucial to my academic journey but have also ignited a deep passion for learning within me. Their profound impact has consistently inspired me to strive for the highest standards of excellence.
+
+I owe a profound debt of thanks to my classmates and friends, whose unwavering support, boundless encouragement, and constructive feedback propelled this project forward. Their collaborative spirit, camaraderie, and shared enthusiasm made this endeavor both enjoyable and rewarding. It is their collective efforts that motivated me to strive for excellence.
+
+I must acknowledge the indispensable contributions of the diligent library staff and the technical support team. Their invaluable aid in research materials, technical challenges, and the creation of a conducive learning environment ensured that I had the necessary resources at my disposal to navigate the complexities of this project effectively. Their unwavering commitment to my success has not gone unnoticed.
+
+Last but certainly not least, I want to express my deepest gratitude to my family for their unwavering support, unshakable belief in my abilities, and endless encouragement. Their unwavering belief in my potential has been a driving force behind my academic pursuits. Their constant motivation and understanding have driven me to achieve the highest standards of excellence.
+
+This project report is a testament to the collective efforts of all those mentioned above. I am sincerely thankful for their invaluable contributions to this endeavor, and I look forward to carrying their support and inspiration with me as I continue my academic journey and future endeavors.
+\vspace{50pt}
+
+\noindent{Name : Lakshyajeet Singh Goyal}\\
+{Year/Semester/Batch : CLASS}\\
+{Date :   \today}
+
+\newpage
+\tableofcontents
+% \listoftables
+\listoffigures
+\newpage
+
+\newpage
+\pagenumbering{arabic}
+
+
+\chapter{Introduction}
+
+\section{Introduction}
+3 Paragraph introduction 
+
+\section{Objective}
+The primary objective of this project is to build a ........ . Specific goals include:
+
+\begin{itemize}
+\item 
+\item 
+\item 
+\item 
+\item 
+\item 
+\end{itemize}
+
+\chapter{Literature Survey}
+
+\section{Introduction}
+5 paragraph introduction 
+
+
+\section{Challenges and Limitations}
+
+\section{Applications}
+
+\section{Research Gaps}
+
+\chapter{Methodology}
+
+This chapter outlines the research Methodology, which is used to devlop the project:
+
+\section{Data Collection}
+Data is collected from college mail.
+
+
+\section{Data Preprocessing}
+
+
+\section{Feature Engineering}
+
+
+\section{Visualization}
+
+
+\chapter{Results and Discussion}
+
+
+\section{Model Visualization}
+
+To assess the performance of our model, we present several relevant metrics and visualizations that offer insights into its effectiveness.
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{heatmap.png}
+    \caption{Confusion Matrix HeatMap}
+    \label{fig:distribution}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{distributuion.png}
+    \caption{Data Distribution Plot}
+    \label{fig:distribution}
+\end{figure}
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{trainingvs.png}
+    \caption{ Training Progress(Training and validation vs Loss or Accuracy)}
+    \label{fig:distribution}
+\end{figure}
+
+\section{Result}
+To assess the output of our project, we present streamlit addition to our project as an interface.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{DIGITCLSsasd.png}
+    \caption{Home Page}
+    \label{fig:distribution}
+\end{figure}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.8\textwidth]{digit.png}
+    \caption{Prediction Page}
+    \label{fig:distribution}
+\end{figure}
+
+
+\section{Discussion}
+
+\chapter{Conclusion}
+
+\section{Summary of Findings}
+
+\section{Contributions to the Field}
+
+\section{Challenges and Future Directions}
+
+\section{Future Enhancements}
+
+\section{Final Thoughts}
+
+\newpage
+
+\begin{thebibliography}{5}
+
+\bibitem{}
+    
+
+\end{thebibliography}
+
+
+
+\end{document}
+
+
